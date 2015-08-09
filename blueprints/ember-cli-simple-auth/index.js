@@ -3,6 +3,6 @@ module.exports = {
   },
 
   afterInstall: function() {
-    return this.addBowerPackageToProject('ember-cli-simple-auth', 'git://github.com/jeffcressman/ember-cli-simple-auth.git');
+    return this.addBowerPackageToProject('ember-simple-auth', 'git://github.com/jeffcressman/ember-simple-auth.git');
   }
 };
